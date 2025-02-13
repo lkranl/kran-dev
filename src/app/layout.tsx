@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Kran's Website",
   description: "This is the base for the personal website of kran",
+  other: { googleAdsenseAccount: "ca-pub-3460906822050782" },
 };
 
 export default function RootLayout({
