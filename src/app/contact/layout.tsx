@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
-import { Fira_Code } from "next/font/google";
-import "./globals.css";
-import Navbar from "./navbar";
-
-const fira_code = Fira_Code({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "Kran's Website",
+  title: "Kran's Contact",
   description: "This is the base for the personal website of kran",
   manifest: '/site.webmanifest',
   icons: {
@@ -19,17 +14,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default function ContactLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body style={fira_code.style}>
-        <Navbar />
-        {children}
-      </body>
-    </html>
+    <section>{children}</section>
   );
 }
