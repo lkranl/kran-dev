@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="sun" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="4" fill="currentColor" />
+    <g
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      fill="currentColor"
+    >
+      <path d="M12 2v2" />
+      <path d="M12 20v2" />
+      <path d="M2 12h2" />
+      <path d="M20 12h2" />
+      <path d="m4.93 4.93 1.41 1.41" />
+      <path d="m17.66 17.66 1.41 1.41" />
+      <path d="m4.93 19.07 1.41-1.41" />
+      <path d="m17.66 6.34 1.41-1.41" />
+    </g>
+  </symbol>
+
+  <symbol id="moon" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M20.742 13.045A8.088 8.088 0 0 1 10.955 3.26a1 1 0 0 0-1.31-1.233A10.086 10.086 0 1 0 21.98 14.355a1 1 0 0 0-1.238-1.31Z"/>
+  </symbol>
+
+  <symbol id="menu" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h16v2H4v-2z"/>
+  </symbol>
+  
+  <symbol id="close" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L10.6 13.4 4.3 19.7 2.9 18.3 9.2 12 2.9 5.7 4.3 4.3l6.3 6.3 6.3-6.3z"/>
+  </symbol>
+
+  <symbol id="home" viewBox="0 0 24 24">
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M3 10.5 12 3l9 7.5" />
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M6.5 10.5V21h11V10.5" />
+  </symbol>
+
+  <symbol id="projects" viewBox="0 0 24 24">
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M4 7h16v14H4z" />
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M9 3h6l1 4H8l1-4z" />
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M8 13h8" />
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M8 16h5" />
+  </symbol>
+
+  <symbol id="about" viewBox="0 0 24 24">
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M12 21a9 9 0 1 0-9-9 9 9 0 0 0 9 9Z" />
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M12 11v6" />
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M12 7h.01" />
+  </symbol>
+
+  <symbol id="contact" viewBox="0 0 24 24">
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M4 6h16v12H4z" />
+    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="m4 7 8 6 8-6" />
+  </symbol>
+</svg>
