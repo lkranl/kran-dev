@@ -51,7 +51,7 @@ jobs:
         env:
           VITE_TURNSTILE_SITE_KEY: ${{ vars.VITE_TURNSTILE_SITE_KEY }}
           VITE_FORM_SPREE_PROJECT_ID: ${{ vars.VITE_FORM_SPREE_PROJECT_ID }}
-        run: npm run build
+        run: npm run build && cp dist/index.html dist/404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
